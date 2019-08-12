@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="11.531" viewBox="0 0 18 11.531">
+  <g id="hamburger" transform="translate(-1870 -35)">
+    <g id="Group_2" data-name="Group 2" transform="translate(1666.5 -46)">
+      <g id="Group_1" data-name="Group 1" transform="translate(203.5 81.5)">
+        <line id="Line_1" data-name="Line 1" x2="18" fill="none" stroke="#000" stroke-width="1"/>
+        <line id="Line_2" data-name="Line 2" x2="18" transform="translate(0 5.265)" fill="none" stroke="#000" stroke-width="1"/>
+        <line id="Line_3" data-name="Line 3" x2="18" transform="translate(0 10.531)" fill="none" stroke="#000" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
