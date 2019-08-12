@@ -8,13 +8,69 @@
     <title>Megamenu</title>
   </head>
   <body>
-    <nav id="overlay"></nav>
+    <nav id="overlay">
+      <img
+        id="close-menu"
+        src="./images/close.svg"
+        class="close-btn"
+        alt="close button"
+      />
+      <ul>
+        <li>
+          <a href="#">home</a>
+          <span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos atque dolores deserunt.</span
+          >
+        </li>
+        <li>
+          <a href="#">about us</a>
+          <span
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Inventore?.</span
+          >
+        </li>
+        <li>
+          <a href="#">services</a>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+        </li>
+        <li>
+          <a href="#">contact</a>
+          <span
+            >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni,
+            animi!</span
+          >
+        </li>
+      </ul>
+    </nav>
 
     <header>
       <a href="#" class="logo">mysite</a>
-      <img src="./images/hamburger.svg" class="menu-btn" alt="menu button" />
+      <img
+        id="open-menu"
+        src="./images/hamburger.svg"
+        class="menu-btn"
+        alt="menu button"
+      />
     </header>
 
     <section><h1>this is fancy</h1></section>
+
+    <script>
+      var overlay = document.getElementById('overlay');
+      var closeMenu = document.getElementById('closeMenu');
+
+      document
+        .getElementById('open-menu')
+        .addEventListener('click', function() {
+          overlay.classList.add('show-menu');
+        });
+
+      document
+        .getElementById('close-menu')
+        .addEventListener('click', function() {
+          overlay.classList.remove('show-menu');
+        });
+    </script>
   </body>
 </html>
