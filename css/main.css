@@ -12,16 +12,22 @@ body a {
 
 header {
   padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header .logo {
   color: black;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 header .menu-btn {
   width: 20px;
-  float: right;
   cursor: pointer;
 }
 
@@ -55,7 +61,7 @@ nav {
 }
 
 nav .close-btn {
-  width: 18px;
+  width: 20px;
   float: right;
   cursor: pointer;
   opacity: 0;
